@@ -2,7 +2,7 @@
 An end-to-end Looker Studio dashboard built to monitor client lifecycle, onboarding compliance, document validity, and contract renewals at a PAN-India scale. Designed for both leadership visibility and operational accountability using advanced calculated fields and business logic.
 
 > 👇 **Jump to the complete dashboard preview**  
-> [Go to Dashboard ↓](#-dashboard-preview)
+> [Go to Dashboard ↓](# Dashboard Preview)
 
 ![futuristic-technology-hologram.jpg](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/futuristic-technology-hologram.jpg)
 
