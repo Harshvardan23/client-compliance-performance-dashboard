@@ -96,6 +96,7 @@ Draft Clients
 The Y-axis is driven by year-specific calculated fields, derived from the same onboarding date column.
 
 🟢 Clients Onboarded in 2025
+
 CASE
   WHEN YEAR(Client Onboarding Date) = 2025
        AND Client Onboarding Date IS NOT NULL
@@ -105,6 +106,7 @@ CASE
 END
 
 🔵 Clients Onboarded in 2024
+
 CASE
   WHEN YEAR(Client Onboarding Date) = 2024
        AND Client Onboarding Date IS NOT NULL
