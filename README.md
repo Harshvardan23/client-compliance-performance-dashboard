@@ -84,3 +84,31 @@ The same pattern is reused for:
 Approved Clients
 
 Draft Clients
+
+# 📈 Monthly Onboarding Trend (Year-over-Year)
+
+### This visualization compares monthly client onboarding trends across different calendar years to identify growth patterns and seasonality. Only approved clients with valid onboarding dates are included to ensure accuracy and consistency
+
+![YOY client onboarding.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/YOY%20client%20onboarding.png)
+
+## ⚙️ Metric Logic Approach
+
+The Y-axis is driven by year-specific calculated fields, derived from the same onboarding date column.
+
+🟢 Clients Onboarded in 2025
+CASE
+  WHEN YEAR(Client Onboarding Date) = 2025
+       AND Client Onboarding Date IS NOT NULL
+       AND Status = 'Approved'
+  THEN Client ID
+  ELSE NULL
+END
+
+🔵 Clients Onboarded in 2024
+CASE
+  WHEN YEAR(Client Onboarding Date) = 2024
+       AND Client Onboarding Date IS NOT NULL
+       AND Status = 'Approved'
+  THEN Client ID
+  ELSE NULL
+END
