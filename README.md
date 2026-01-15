@@ -220,11 +220,13 @@ END
 
 # 🖥️ Dashboard Preview
 ![dashboard_01.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/dashboard_01.png)
+
+
 ![Dashhboard_02.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Dashhboard_02.png)
-![Dashboard 03](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Dashhboard_03.png)
-![Dashboard 04](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Dashhboard_04.png)
-![Dashboard 05](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Dashhboard_05.png)
-![Dashboard 06](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Dashhboard_06.png)
+![Dashboard 03.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Dashhboard_03.png)
+![Dashboard 04.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Dashhboard_04.png)
+![Dashboard 05.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Dashhboard_05.png)
+![Dashboard 06.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Dashhboard_06.png)
 
 --- 
 
