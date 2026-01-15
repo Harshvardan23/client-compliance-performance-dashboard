@@ -29,3 +29,26 @@ The solution transforms raw operational data into actionable insights through st
 
 To maintain transparency and clarity around the underlying data model, this project is built on a centralized client-level table named client_details.
 This table captures the entire client lifecycle, contractual information, compliance dates, and ownership metadata.
+
+# 🗂️ Data Schema – client_details Table
+
+![client_data_flow.drawio.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/client_data_flow.drawio.png)
+
+This dashboard is powered by a simple and scalable end-to-end data pipeline designed to ensure data accuracy, freshness, and reliability.
+
+## 🧠 How Data Moves
+
+WMS
+Operational data is captured continuously from on-ground teams across PAN India.
+
+Cloud Storage (AWS)
+Raw data is centrally stored to ensure scalability and availability.
+
+Database Layer (PostgreSQL / pgAdmin)
+Data is queried, validated, and structured into analysis-ready extracts.
+
+Data Validation (Google Sheets)
+Controlled corrections and sanity checks are applied where required.
+
+Visualization (Looker Studio)
+Cleaned data is visualized using KPIs, filters, and calculated fields.
