@@ -52,3 +52,35 @@ Controlled corrections and sanity checks are applied where required.
 
 Visualization (Looker Studio)
 Cleaned data is visualized using KPIs, filters, and calculated fields.
+
+# ❓ Business Questions Answered
+
+### How many clients are currently active, inactive, returned, or in draft state?
+
+![executive summary.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/executive%20summary.png)
+
+##❗ Design Challenge
+
+The underlying schema contains only one status column (Status), which stores values such as: Approved, Inactive, Returned, Draft. There are no separate columns for each status category.
+
+## ⚙️ Metric Logic Approach
+
+The source table contains a single Status field that represents the current state of each client. To compute status-wise metrics without modifying the schema, conditional calculated fields were used in Looker Studio.
+
+CASE
+  WHEN Status = 'Inactive'
+  THEN Client ID
+  ELSE NULL
+END
+
+CASE
+  WHEN Status = 'Returned'
+  THEN Client ID
+  ELSE NULL
+END
+
+The same pattern is reused for:
+
+Approved Clients
+
+Draft Clients
