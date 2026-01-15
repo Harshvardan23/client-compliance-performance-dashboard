@@ -30,7 +30,7 @@ The solution transforms raw operational data into actionable insights through st
 To maintain transparency and clarity around the underlying data model, this project is built on a centralized client-level table named client_details.
 This table captures the entire client lifecycle, contractual information, compliance dates, and ownership metadata.
 
-🎯 Table Purpose
+## 🎯 Table Purpose
 
 The client_details table acts as the single source of truth for:
 
@@ -50,7 +50,7 @@ The schema is designed to support date-aware metrics, compliance checks, and lif
 
 (Refer to the diagram above for a visual representation of the table structure.)
 
-🔑 Key Fields Explained
+## 🔑 Key Fields Explained
 👤 Client Identification
 
 . Client ID
@@ -67,7 +67,7 @@ The schema is designed to support date-aware metrics, compliance checks, and lif
 
 These fields uniquely identify each client and enable reliable tracking across systems.
 
-🌍 Geographic & Ownership Details
+## 🌍 Geographic & Ownership Details
 
 . Region Name
 
@@ -79,7 +79,7 @@ These fields uniquely identify each client and enable reliable tracking across s
 
 Used for regional performance analysis and leadership-level accountability.
 
-💼 Business & Agreement Information
+## 💼 Business & Agreement Information
 
 . Product Name
 
@@ -93,7 +93,7 @@ Used for regional performance analysis and leadership-level accountability.
 
 These attributes help evaluate performance across products, engagement models, and commercial structures.
 
-🔄 Lifecycle & Status
+## 🔄 Lifecycle & Status
 
 . Client Onboarding Date
 
