@@ -53,71 +53,71 @@ The schema is designed to support date-aware metrics, compliance checks, and lif
 🔑 Key Fields Explained
 👤 Client Identification
 
-Client ID
+. Client ID
 
-Client Internal ID
+. Client Internal ID
 
-Client Name
+. Client Name
 
-Client PAN Number
+. Client PAN Number
 
-Client CIN Number
+. Client CIN Number
 
-Client GST Number
+. Client GST Number
 
 These fields uniquely identify each client and enable reliable tracking across systems.
 
 🌍 Geographic & Ownership Details
 
-Region Name
+. Region Name
 
-State
+. State
 
-ZIP Code
+. ZIP Code
 
-Regional Head
+. Regional Head
 
 Used for regional performance analysis and leadership-level accountability.
 
 💼 Business & Agreement Information
 
-Product Name
+. Product Name
 
-Agreement Name
+. Agreement Name
 
-Dealing Mode
+. Dealing Mode
 
-Service Charge
+. Service Charge
 
-Trainee Fee
+. Trainee Fee
 
 These attributes help evaluate performance across products, engagement models, and commercial structures.
 
 🔄 Lifecycle & Status
 
-Client Onboarding Date
+. Client Onboarding Date
 
-Status
+. Status
 (Approved, Inactive, Draft, Returned)
 
 Provides visibility into client lifecycle stages and operational health.
 
 📅 Contract & Compliance Dates
 
-Contract Start Date
+. Contract Start Date
 
-Contract End Date
+. Contract End Date
 
-WC Start Date / WC End Date
+. WC Start Date / WC End Date
 
-MC Start Date / MC End Date
+. MC Start Date / MC End Date
 
-GPA Start Date / GPA End Date
+.GPA Start Date / GPA End Date
 
 These date fields are critical for:
 
-Contract validity checks
+. Contract validity checks
 
-Compliance monitoring
+. Compliance monitoring
 
-Expiry and renewal risk identification
+. Expiry and renewal risk identification
