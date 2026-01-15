@@ -114,3 +114,105 @@ CASE
   THEN Client ID
   ELSE NULL
 END
+
+# 📊 Regional Head – Client Compliance Performance
+
+### This section evaluates client compliance performance at a leadership ownership level by comparing total clients, approved (active) clients, and active ratio across Regional Heads. The intent is to: Highlight ownership-driven performance, Identify regions below / above target, Enable quick leadership intervention
+
+![RH client comparison.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/RH%20client%20comparison.png)
+
+## ⚙️ Active Ratio Calculation
+
+The Active Ratio (%) represents the proportion of approved clients out of the total client base under each Regional Head.
+
+SUM(
+  CASE
+    WHEN Status = 'Approved' THEN Client ID
+    ELSE NULL
+  END
+)
+/
+SUM(Client ID)
+
+🟢 High Active Ratio (> 90%)
+
+CASE
+  WHEN
+    COUNT(
+      CASE
+        WHEN Status = 'Approved' THEN Client ID
+        ELSE NULL
+      END
+    ) * 100
+    /
+    COUNT(
+      CASE
+        WHEN Client ID > 0 THEN Client ID
+        ELSE NULL
+      END
+    ) > 90
+  THEN
+    COUNT(
+      CASE
+        WHEN Status = 'Approved' THEN Client ID
+        ELSE NULL
+      END
+    )
+    /
+    COUNT(
+      CASE
+        WHEN Client ID > 0 THEN Client ID
+        ELSE NULL
+      END
+    )
+  ELSE NULL
+END
+
+🟡 Mid Active Ratio (70% – 90%)
+
+CASE
+  WHEN
+    COUNT(
+      CASE
+        WHEN Status = 'Approved' THEN Client ID
+        ELSE NULL
+      END
+    ) * 100
+    /
+    COUNT(
+      CASE
+        WHEN Client ID > 0 THEN Client ID
+        ELSE NULL
+      END
+    ) > 70
+    AND
+    COUNT(
+      CASE
+        WHEN Status = 'Approved' THEN Client ID
+        ELSE NULL
+      END
+    ) * 100
+    /
+    COUNT(
+      CASE
+        WHEN Client ID > 0 THEN Client ID
+        ELSE NULL
+      END
+    ) < 90
+  THEN
+    COUNT(
+      CASE
+        WHEN Status = 'Approved' THEN Client ID
+        ELSE NULL
+      END
+    )
+    /
+    COUNT(
+      CASE
+        WHEN Client ID > 0 THEN Client ID
+        ELSE NULL
+      END
+    )
+  ELSE NULL
+END
+
