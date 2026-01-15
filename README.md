@@ -102,7 +102,9 @@ These attributes help evaluate performance across products, engagement models, a
 
 Provides visibility into client lifecycle stages and operational health.
 
-📅 Contract & Compliance Dates
+---
+
+### 📅 Contract & Compliance Dates
 
 . Contract Start Date
 
