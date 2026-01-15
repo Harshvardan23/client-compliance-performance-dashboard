@@ -59,7 +59,7 @@ Cleaned data is visualized using KPIs, filters, and calculated fields.
 
 ![executive summary.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/executive%20summary.png)
 
-##❗Design Challenge
+## Design Challenge
 
 The underlying schema contains only one status column (Status), which stores values such as: Approved, Inactive, Returned, Draft. There are no separate columns for each status category.
 
