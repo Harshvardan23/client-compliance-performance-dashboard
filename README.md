@@ -34,15 +34,15 @@ This table captures the entire client lifecycle, contractual information, compli
 
 The client_details table acts as the single source of truth for:
 
-Client identity and geographic information
+. Client identity and geographic information
 
-Agreement and engagement details
+. Agreement and engagement details
 
-Contractual validity and renewal tracking
+. Contractual validity and renewal tracking
 
-Compliance timelines (WC, MC, GPA)
+. Compliance timelines (WC, MC, GPA)
 
-Operational ownership and accountability
+. Operational ownership and accountability
 
 🧾 Schema Overview
 
