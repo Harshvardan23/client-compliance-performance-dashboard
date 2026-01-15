@@ -216,3 +216,13 @@ CASE
   ELSE NULL
 END
 
+--- 
+
+# 🖥️ Dashboard Preview
+![Client database.pdf](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/Client%20database.pdf)
+
+--- 
+
+# 👨‍💻 Author
+@https://github.com/Harshvardan23
+
