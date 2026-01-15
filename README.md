@@ -30,7 +30,7 @@ The solution transforms raw operational data into actionable insights through st
 To maintain transparency and clarity around the underlying data model, this project is built on a centralized client-level table named client_details.
 This table captures the entire client lifecycle, contractual information, compliance dates, and ownership metadata.
 
-# 🗂️ Data Schema – client_details Table
+# 🔄 Data Flow 
 
 ![client_data_flow.drawio.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/client_data_flow.drawio.png)
 
