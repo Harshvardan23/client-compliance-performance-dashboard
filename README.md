@@ -221,7 +221,7 @@ END
 
 --- 
 
-# 🖥️ Dashboard Preview
+## Dashboard-Preview
 ![dashboard_01.png](https://github.com/Harshvardan23/client-compliance-performance-dashboard/blob/main/assets/dashboard_01.png)
 
 
